@@ -1,15 +1,19 @@
 # PerformCRUDOperation
 Steps to create database connection
+
  1.Install AWS CLI version 2 
+ 
  2.Open new terminal and type the following
         aws configure
         npm install aws-sdk
 3.Start DynamoDB using the following command
         java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+        
 4.In another terminal,run the below command to create Employee table
         node CreateTable.js
 
 Steps to run Server
+
 1.In the terminal,run the below command
         node App.js
 
